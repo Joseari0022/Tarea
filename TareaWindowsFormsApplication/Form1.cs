@@ -22,6 +22,7 @@ namespace TareaWindowsFormsApplication
         {
             label1.Text = "Hola mundo";
             pictureBox1.Visible = true;
+            textBox1.Text = "vvvvvv";
         }
     }
 }
