@@ -15,6 +15,13 @@ namespace TareaWindowsFormsApplication
         public Form1()
         {
             InitializeComponent();
+            pictureBox1.Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Hola mundo";
+            pictureBox1.Visible = true;
         }
     }
 }
